@@ -21,4 +21,7 @@ export class Bombe extends Component {
             },1000)
         this.setState({timer:idTimer})
     }
+    static getDerivedStateFromProps(props,state){
+        return{}
+    }
 }
